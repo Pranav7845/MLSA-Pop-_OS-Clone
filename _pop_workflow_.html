@@ -1,0 +1,2116 @@
+
+
+
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        <title>Pop!_OS Workflow</title>
+        <link rel="dns-prefetch preconnect" href="https://cdn11.bigcommerce.com/s-pywjnxrcr2" crossorigin><link rel="dns-prefetch preconnect" href="https://fonts.googleapis.com/" crossorigin><link rel="dns-prefetch preconnect" href="https://fonts.gstatic.com/" crossorigin>
+        <link rel='canonical' href='https://system76.com/pop/workflow/' /><meta name='platform' content='bigcommerce.stencil' />
+        
+         
+
+        <link href="https://cdn11.bigcommerce.com/s-pywjnxrcr2/product_images/system76_logo-fav-32x32.png?t&#x3D;1711381758" rel="shortcut icon">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script>
+            document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+        </script>
+
+        <script>
+    function browserSupportsAllFeatures() {
+        return window.Promise
+            && window.fetch
+            && window.URL
+            && window.URLSearchParams
+            && window.WeakMap
+            // object-fit support
+            && ('objectFit' in document.documentElement.style);
+    }
+
+    function loadScript(src) {
+        var js = document.createElement('script');
+        js.src = src;
+        js.onerror = function () {
+            console.error('Failed to load polyfill script ' + src);
+        };
+        document.head.appendChild(js);
+    }
+
+    if (!browserSupportsAllFeatures()) {
+        loadScript('https://cdn11.bigcommerce.com/s-pywjnxrcr2/stencil/0ff768d0-35d1-013e-426f-3234c08a9e7e/dist/theme-bundle.polyfills.js');
+    }
+</script>
+        <script>window.consentManagerTranslations = `{"locale":"en","locales":{"consent_manager.data_collection_warning":"en","consent_manager.accept_all_cookies":"en","consent_manager.gdpr_settings":"en","consent_manager.data_collection_preferences":"en","consent_manager.manage_data_collection_preferences":"en","consent_manager.use_data_by_cookies":"en","consent_manager.data_categories_table":"en","consent_manager.allow":"en","consent_manager.accept":"en","consent_manager.deny":"en","consent_manager.dismiss":"en","consent_manager.reject_all":"en","consent_manager.category":"en","consent_manager.purpose":"en","consent_manager.functional_category":"en","consent_manager.functional_purpose":"en","consent_manager.analytics_category":"en","consent_manager.analytics_purpose":"en","consent_manager.targeting_category":"en","consent_manager.advertising_category":"en","consent_manager.advertising_purpose":"en","consent_manager.essential_category":"en","consent_manager.esential_purpose":"en","consent_manager.yes":"en","consent_manager.no":"en","consent_manager.not_available":"en","consent_manager.cancel":"en","consent_manager.save":"en","consent_manager.back_to_preferences":"en","consent_manager.close_without_changes":"en","consent_manager.unsaved_changes":"en","consent_manager.by_using":"en","consent_manager.agree_on_data_collection":"en","consent_manager.change_preferences":"en","consent_manager.cancel_dialog_title":"en","consent_manager.privacy_policy":"en","consent_manager.allow_category_tracking":"en","consent_manager.disallow_category_tracking":"en"},"translations":{"consent_manager.data_collection_warning":"We use cookies (and other similar technologies) to collect data to improve your shopping experience.","consent_manager.accept_all_cookies":"Accept All Cookies","consent_manager.gdpr_settings":"Settings","consent_manager.data_collection_preferences":"Website Data Collection Preferences","consent_manager.manage_data_collection_preferences":"Manage Website Data Collection Preferences","consent_manager.use_data_by_cookies":" uses data collected by cookies and JavaScript libraries to improve your shopping experience.","consent_manager.data_categories_table":"The table below outlines how we use this data by category. To opt out of a category of data collection, select 'No' and save your preferences.","consent_manager.allow":"Allow","consent_manager.accept":"Accept","consent_manager.deny":"Deny","consent_manager.dismiss":"Dismiss","consent_manager.reject_all":"Reject all","consent_manager.category":"Category","consent_manager.purpose":"Purpose","consent_manager.functional_category":"Functional","consent_manager.functional_purpose":"Enables enhanced functionality, such as videos and live chat. If you do not allow these, then some or all of these functions may not work properly.","consent_manager.analytics_category":"Analytics","consent_manager.analytics_purpose":"Provide statistical information on site usage, e.g., web analytics so we can improve this website over time.","consent_manager.targeting_category":"Targeting","consent_manager.advertising_category":"Advertising","consent_manager.advertising_purpose":"Used to create profiles or personalize content to enhance your shopping experience.","consent_manager.essential_category":"Essential","consent_manager.esential_purpose":"Essential for the site and any requested services to work, but do not perform any additional or secondary function.","consent_manager.yes":"Yes","consent_manager.no":"No","consent_manager.not_available":"N/A","consent_manager.cancel":"Cancel","consent_manager.save":"Save","consent_manager.back_to_preferences":"Back to Preferences","consent_manager.close_without_changes":"You have unsaved changes to your data collection preferences. Are you sure you want to close without saving?","consent_manager.unsaved_changes":"You have unsaved changes","consent_manager.by_using":"By using our website, you're agreeing to our","consent_manager.agree_on_data_collection":"By using our website, you're agreeing to the collection of data as described in our ","consent_manager.change_preferences":"You can change your preferences at any time","consent_manager.cancel_dialog_title":"Are you sure you want to cancel?","consent_manager.privacy_policy":"Privacy Policy","consent_manager.allow_category_tracking":"Allow [CATEGORY_NAME] tracking","consent_manager.disallow_category_tracking":"Disallow [CATEGORY_NAME] tracking"}}`;</script>
+
+        <script>
+            window.lazySizesConfig = window.lazySizesConfig || {};
+            window.lazySizesConfig.loadMode = 1;
+        </script>
+        <script async src="https://cdn11.bigcommerce.com/s-pywjnxrcr2/stencil/0ff768d0-35d1-013e-426f-3234c08a9e7e/dist/theme-bundle.head_async.js"></script>
+
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:700,500,400,300%7CFira+Sans:400,300,500,700&display=block" rel="stylesheet">
+
+        <script async src="https://cdn11.bigcommerce.com/s-pywjnxrcr2/stencil/0ff768d0-35d1-013e-426f-3234c08a9e7e/dist/theme-bundle.font.js"></script>
+
+        <link href="https://cdn11.bigcommerce.com/s-pywjnxrcr2/content/css/fontawesome.min.css" rel="stylesheet" />
+        <link href="https://cdn11.bigcommerce.com/s-pywjnxrcr2/content/css/solid.min.css" rel="stylesheet" />
+        <link data-stencil-stylesheet href="https://cdn11.bigcommerce.com/s-pywjnxrcr2/stencil/0ff768d0-35d1-013e-426f-3234c08a9e7e/css/theme-0a94dab0-6f2d-013e-c7e7-1ab316862d08.css" rel="stylesheet">
+
+        
+<script type="text/javascript" src="https://checkout-sdk.bigcommerce.com/v1/loader.js" defer ></script>
+<script>window.consentManagerStoreConfig = function () { return {"storeName":"system76","privacyPolicyUrl":"","writeKey":null,"improvedConsentManagerEnabled":true,"AlwaysIncludeScriptsWithConsentTag":true}; };</script>
+<script type="text/javascript" src="https://cdn11.bigcommerce.com/shared/js/bodl-consent-32a446f5a681a22e8af09a4ab8f4e4b6deda6487.js" integrity="sha256-uitfaufFdsW9ELiQEkeOgsYedtr3BuhVvA4WaPhIZZY=" crossorigin="anonymous" defer></script>
+<script type="text/javascript" src="https://cdn11.bigcommerce.com/shared/js/storefront/consent-manager-config-3013a89bb0485f417056882e3b5cf19e6588b7ba.js" defer></script>
+<script type="text/javascript" src="https://cdn11.bigcommerce.com/shared/js/storefront/consent-manager-08633fe15aba542118c03f6d45457262fa9fac88.js" defer></script>
+<script type="text/javascript">
+var BCData = {};
+</script>
+<script src='https://ecommplugins-trustboxsettings.trustpilot.com/stores/pywjnxrcr2.js?settings=1736970618038' async ></script><script src='https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js' async ></script><script>
+  var b2bHideBodyStyle = document.createElement('style')
+  b2bHideBodyStyle.id = 'b2b-account-page-hide-body'
+  const removeCart = () => {
+    const style = document.createElement('style')
+    style.type = 'text/css'
+    style.id = 'b2bPermissions-cartElement-id'
+    style.innerHTML =
+      '[href="/cart.php"], #form-action-addToCart, [data-button-type="add-cart"], .button--cardAdd, .card-figcaption-button, [data-emthemesmodez-cart-item-add], .add-to-cart-button { display: none !important }'
+    document.getElementsByTagName('head').item(0).appendChild(style)
+  }
+  removeCart()
+</script><script data-bc-cookie-consent="3" type="text/plain" defer data-domain="system76.com" src="https://plausible.io/js/script.hash.outbound-links.js"></script>
+<script data-bc-cookie-consent="3" type="text/plain">window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+                <script type="text/javascript">
+                    const trustpilot_settings = {
+                        page: "page" === "default" ? "landing" : "page",
+                        sku: "",
+                        name: "",
+                        key: "D0MMr4btJEPATOr6",
+                        product_id: "", // Needed for TrustBoxPreview
+                    };
+                    const createTrustBoxScript = function() {
+                        const trustBoxScript = document.createElement('script');
+                        trustBoxScript.async = true;
+                        trustBoxScript.src = "https://ecommplugins-scripts.trustpilot.com/v2.1/js/header_bigcommerce.min.js";
+                        document.head.appendChild(trustBoxScript);
+                    };
+                    if (BCData.product_attributes && !BCData.product_attributes.base && "sku" !== 'id') {
+                        addEventListener('DOMContentLoaded', () => {
+                            const endpoint = "/remote/v1/product-attributes/";
+                            try {
+                                stencilUtils.api.productAttributes.makeRequest(endpoint, "GET", {}, {}, function(err, res) {
+                                    trustpilot_settings.sku = res.data["sku"];
+                                    createTrustBoxScript();
+                                })
+                            } catch {
+                                fetch(endpoint).then(function(res) {
+                                    res.json().then(function(jsonRes) {
+                                        trustpilot_settings.sku = jsonRes.data["sku"];
+                                        createTrustBoxScript();
+                                    });
+                                });
+                            }
+                        });
+                    } else {
+                        createTrustBoxScript();
+                    }
+                </script>
+            
+    </head>
+    <body>
+        <svg data-src="https://cdn11.bigcommerce.com/s-pywjnxrcr2/stencil/0ff768d0-35d1-013e-426f-3234c08a9e7e/img/icon-sprite.svg" class="icons-svg-sprite"></svg>
+
+        <a href="#main-content" class="skip-to-main-link">Skip to main content</a>
+                <div class="omnibar">
+    <div data-content-region="omnibar--global"></div>
+</div>
+<header class="header" role="banner">
+    <a href="#" class="mobileMenu-toggle" data-mobile-menu-toggle="menu">
+        <span class="mobileMenu-toggleIcon">Toggle menu</span>
+    </a>
+    <nav class="navUser">
+        
+    <ul class="navUser-section navUser-section--alt">
+        <li class="navUser-item">
+            <a class="navUser-action navUser-item--compare"
+               href="/compare"
+               data-compare-nav
+               aria-label="Compare"
+            >
+                Compare <span class="countPill countPill--positive countPill--alt"></span>
+            </a>
+        </li>
+        <li class="navUser-item">
+            <button class="navUser-action navUser-action--quickSearch"
+               type="button"
+               id="quick-search-expand"
+               data-search="quickSearch"
+               aria-controls="quickSearch"
+               aria-label="Search"
+            >
+                Search
+            </button>
+        </li>
+        <li class="navUser-item">
+            <a class="navUser-action"
+                href="https://system76.com/contact"
+                aria-label="Contact"
+            >
+                Contact
+            </a>
+        </li>
+        <li class="navUser-item navUser-item--account-retail">
+                <a class="navUser-action"
+                   href="https://account.system76.com/login?bc&#x3D;true"
+                   aria-label="Log in"
+                >
+                    Log in
+                </a>
+                    <span class="navUser-or">or</span>
+                    <a class="navUser-action"
+                       href="https://account.system76.com/create-account?bc&#x3D;true"
+                       aria-label="Register"
+                    >
+                        Register
+                    </a>
+        </li>
+        <li class="navUser-item navUser-item--cart">
+            <a class="navUser-action"
+               data-cart-preview
+               data-dropdown="cart-preview-dropdown"
+               data-options="align:right"
+               href="/cart.php"
+               aria-label="Cart with 0 items"
+            >
+                <span class="navUser-item-cartLabel">Cart</span>
+                <span class="countPill cart-quantity"></span>
+            </a>
+
+            <div class="dropdown-menu" id="cart-preview-dropdown" data-dropdown-content aria-hidden="true"></div>
+        </li>
+    </ul>
+    <div class="dropdown dropdown--quickSearch" id="quickSearch" aria-hidden="true" data-prevent-quick-search-close>
+        <div class="container">
+    <form class="form" onsubmit="return false" data-url="/search.php" data-quick-search-form>
+        <fieldset class="form-fieldset">
+            <div class="form-field">
+                <label class="is-srOnly" for="nav-quick-search">Search</label>
+                <input class="form-input"
+                       data-search-quick
+                       name="nav-quick-search"
+                       id="nav-quick-search"
+                       data-error-message="Search field cannot be empty."
+                       placeholder="Search the store"
+                       autocomplete="off"
+                >
+            </div>
+        </fieldset>
+    </form>
+    <section class="quickSearchResults" data-bind="html: results"></section>
+    <p role="status"
+       aria-live="polite"
+       class="aria-description--hidden"
+       data-search-aria-message-predefined-text="product results for"
+    ></p>
+</div>
+    </div>
+</nav>
+
+        <div class="header-logo header-logo--center">
+            <a href="https://system76.com/" class="header-logo__link" data-header-logo-link>
+        <div class="header-logo-image-container">
+            <img class="header-logo-image"
+                src="https://cdn11.bigcommerce.com/s-pywjnxrcr2/images/stencil/250x100/system76-logo-open-source-tagliner4_1730474034__00841.original.png"
+                srcset="https://cdn11.bigcommerce.com/s-pywjnxrcr2/images/stencil/250x100/system76-logo-open-source-tagliner4_1730474034__00841.original.png 1x, https://cdn11.bigcommerce.com/s-pywjnxrcr2/images/stencil/500x200/system76-logo-open-source-tagliner4_1730474034__00841.original.png 2x"
+                alt="System76 logo"
+                title="System76 - Powerful Linux Computers"
+            >
+        </div>
+</a>
+        </div>
+    <div class="navPages-container" id="menu" data-menu>
+        <nav class="navPages">
+    <div class="navPages-quickSearch">
+        <div class="container">
+    <form class="form" onsubmit="return false" data-url="/search.php" data-quick-search-form>
+        <fieldset class="form-fieldset">
+            <div class="form-field">
+                <label class="is-srOnly" for="nav-menu-quick-search">Search</label>
+                <input class="form-input"
+                       data-search-quick
+                       name="nav-menu-quick-search"
+                       id="nav-menu-quick-search"
+                       data-error-message="Search field cannot be empty."
+                       placeholder="Search the store"
+                       autocomplete="off"
+                >
+            </div>
+        </fieldset>
+    </form>
+    <section class="quickSearchResults" data-bind="html: results"></section>
+    <p role="status"
+       aria-live="polite"
+       class="aria-description--hidden"
+       data-search-aria-message-predefined-text="product results for"
+    ></p>
+</div>
+    </div>
+    <ul class="navPages-list">
+                 <li class="navPages-item navPages-item-page">
+                     <a class="navPages-action"
+                        href="https://system76.com/laptops"
+                        aria-label="Laptops"
+                     >
+                         Laptops
+                     </a>
+                 </li>
+                 <li class="navPages-item navPages-item-page">
+                     <a class="navPages-action"
+                        href="https://system76.com/desktops/"
+                        aria-label="Desktops"
+                     >
+                         Desktops
+                     </a>
+                 </li>
+                 <li class="navPages-item navPages-item-page">
+                     <a class="navPages-action"
+                        href="https://system76.com/workstations/"
+                        aria-label="Workstations"
+                     >
+                         Workstations
+                     </a>
+                 </li>
+                 <li class="navPages-item navPages-item-page">
+                     <a class="navPages-action"
+                        href="https://system76.com/desktops/meerkat/"
+                        aria-label="mini"
+                     >
+                         mini
+                     </a>
+                 </li>
+                 <li class="navPages-item navPages-item-page">
+                     <a class="navPages-action"
+                        href="https://system76.com/servers/"
+                        aria-label="Servers"
+                     >
+                         Servers
+                     </a>
+                 </li>
+                 <li class="navPages-item navPages-item-page">
+                     <a class="navPages-action"
+                        href="https://system76.com/keyboards/"
+                        aria-label="keyboards"
+                     >
+                         keyboards
+                     </a>
+                 </li>
+                 <li class="navPages-item navPages-item-page">
+                     <a class="navPages-action"
+                        href="https://system76.com/components/"
+                        aria-label="components"
+                     >
+                         components
+                     </a>
+                 </li>
+                 <li class="navPages-item navPages-item-page">
+                     <a class="navPages-action"
+                        href="https://system76.com/pop/"
+                        aria-label="pop!_os"
+                     >
+                         pop!_os
+                     </a>
+                 </li>
+                 <li class="navPages-item navPages-item-page">
+                     <a class="navPages-action"
+                        href="https://system76.com/merch/"
+                        aria-label="merch"
+                     >
+                         merch
+                     </a>
+                 </li>
+                 <li class="navPages-item navPages-item-page">
+                     <a class="navPages-action"
+                        href="https://system76.com/specials"
+                        aria-label="specials"
+                     >
+                         specials
+                     </a>
+                 </li>
+    </ul>
+    <ul class="navPages-list navPages-list--user">
+            <li class="navPages-item">
+                <a class="navPages-action"
+                   href="https://account.system76.com/login?bc&#x3D;true"
+                   aria-label="Log in"
+                >
+                    Log in
+                </a>
+                    or
+                    <a class="navPages-action"
+                       href="https://account.system76.com/create-account?bc&#x3D;true"
+                       aria-label="Register"
+                    >
+                        Register
+                    </a>
+            </li>
+    </ul>
+</nav>
+    </div>
+    <div data-content-region="header_navigation_bottom--global"></div>
+</header>
+<div data-content-region="header_bottom--global"></div>
+<div data-content-region="header_bottom"><div data-layout-id="8d4b8138-473f-4019-a716-59279853e060">       <div data-sub-layout-container="d4e32b1d-27e7-4090-bd23-eccd2678c3cf" data-layout-name="Layout">
+    <style data-container-styling="d4e32b1d-27e7-4090-bd23-eccd2678c3cf">
+        [data-sub-layout-container="d4e32b1d-27e7-4090-bd23-eccd2678c3cf"] {
+            box-sizing: border-box;
+            display: flex;
+            flex-wrap: wrap;
+            z-index: 0;
+            position: relative;
+            height: ;
+            padding-top: 0px;
+            padding-right: 0px;
+            padding-bottom: 0px;
+            padding-left: 0px;
+            margin-top: 0px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+            border-width: 0px;
+            border-style: solid;
+            border-color: #333333;
+        }
+
+        [data-sub-layout-container="d4e32b1d-27e7-4090-bd23-eccd2678c3cf"]:after {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background-size: cover;
+            z-index: auto;
+        }
+    </style>
+
+    <div data-sub-layout="edc172ff-704a-410d-a217-8921771b897a">
+        <style data-column-styling="edc172ff-704a-410d-a217-8921771b897a">
+            [data-sub-layout="edc172ff-704a-410d-a217-8921771b897a"] {
+                display: flex;
+                flex-direction: column;
+                box-sizing: border-box;
+                flex-basis: 100%;
+                max-width: 100%;
+                z-index: 0;
+                position: relative;
+                height: ;
+                padding-top: 0px;
+                padding-right: 10.5px;
+                padding-bottom: 0px;
+                padding-left: 10.5px;
+                margin-top: 0px;
+                margin-right: 0px;
+                margin-bottom: 0px;
+                margin-left: 0px;
+                border-width: 0px;
+                border-style: solid;
+                border-color: #333333;
+                justify-content: center;
+            }
+            [data-sub-layout="edc172ff-704a-410d-a217-8921771b897a"]:after {
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                background-size: cover;
+                z-index: auto;
+            }
+            @media only screen and (max-width: 700px) {
+                [data-sub-layout="edc172ff-704a-410d-a217-8921771b897a"] {
+                    flex-basis: 100%;
+                    max-width: 100%;
+                }
+            }
+        </style>
+        <div data-widget-id="8f33a9dd-ded6-4157-bbd2-d7b0a7a99d68" data-placement-id="fdf161ef-849c-40c4-80ab-a090cd882853" data-placement-status="ACTIVE"><style>
+  .sd-divider-wrapper-8f33a9dd-ded6-4157-bbd2-d7b0a7a99d68 {
+    display: flex;
+    height: 20px;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+  }
+
+  .sd-divider-8f33a9dd-ded6-4157-bbd2-d7b0a7a99d68 {
+    height: 0;
+    border-top: 1px;
+    border-color: rgba(235,235,235,1);
+    border-style: solid;
+    width: 100%;
+    margin: 0;
+  }
+</style>
+
+<div class="sd-divider-wrapper-8f33a9dd-ded6-4157-bbd2-d7b0a7a99d68">
+  <hr class="sd-divider-8f33a9dd-ded6-4157-bbd2-d7b0a7a99d68">
+</div>
+</div>
+    </div>
+</div>
+
+       <div data-sub-layout-container="736288b0-30c3-43fb-aab4-566d6e03451e" data-layout-name="Layout">
+    <style data-container-styling="736288b0-30c3-43fb-aab4-566d6e03451e">
+        [data-sub-layout-container="736288b0-30c3-43fb-aab4-566d6e03451e"] {
+            box-sizing: border-box;
+            display: flex;
+            flex-wrap: wrap;
+            z-index: 0;
+            position: relative;
+            height: ;
+            padding-top: 0px;
+            padding-right: 0px;
+            padding-bottom: 0px;
+            padding-left: 0px;
+            margin-top: 0px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+            border-width: 0px;
+            border-style: solid;
+            border-color: #333333;
+        }
+
+        [data-sub-layout-container="736288b0-30c3-43fb-aab4-566d6e03451e"]:after {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background-size: cover;
+            z-index: auto;
+        }
+    </style>
+
+    <div data-sub-layout="54abf323-eea5-401b-b394-babf6d5e5996">
+        <style data-column-styling="54abf323-eea5-401b-b394-babf6d5e5996">
+            [data-sub-layout="54abf323-eea5-401b-b394-babf6d5e5996"] {
+                display: flex;
+                flex-direction: column;
+                box-sizing: border-box;
+                flex-basis: 100%;
+                max-width: 100%;
+                z-index: 0;
+                position: relative;
+                height: ;
+                padding-top: 0px;
+                padding-right: 10.5px;
+                padding-bottom: 0px;
+                padding-left: 10.5px;
+                margin-top: 0px;
+                margin-right: 0px;
+                margin-bottom: 0px;
+                margin-left: 0px;
+                border-width: 0px;
+                border-style: solid;
+                border-color: #333333;
+                justify-content: center;
+            }
+            [data-sub-layout="54abf323-eea5-401b-b394-babf6d5e5996"]:after {
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                background-size: cover;
+                z-index: auto;
+            }
+            @media only screen and (max-width: 700px) {
+                [data-sub-layout="54abf323-eea5-401b-b394-babf6d5e5996"] {
+                    flex-basis: 100%;
+                    max-width: 100%;
+                }
+            }
+        </style>
+        <div data-widget-id="5a7e8094-a39e-4bbe-9b79-cb8ea4a44334" data-placement-id="b2681130-7c8e-4b7e-83af-dcbef802ce80" data-placement-status="ACTIVE"><style>
+    .section-5a7e8094-a39e-4bbe-9b79-cb8ea4a44334 {
+        margin: 0 auto 24px auto;
+        padding: 0px 16px;
+        background-color: #ffffff;
+        max-width: 1280px;
+
+        @media (min-width: 1280px) {
+            padding: 0px 0px;
+        }
+
+        ol {
+            display: flex;
+            flex-direction: row;
+            align-content: center;
+            align-items: center;
+            margin: 0;
+        }
+        li {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        li:not(:last-child) {
+            margin-right: 0.5em;
+        }
+        a {
+            font-size: 14px;
+            color: #af5c02;
+            text-transform: lowercase;
+            margin-right: 0.5em;
+            &:focus,
+            &:hover {
+                color: #af5c02;
+            }
+        }
+        .is-active {
+            a {
+                text-decoration: none;
+                color: #574f4a;
+            }
+        }
+        .hide-mobile {
+            display: none;
+        }
+        li:last-child i {
+            display: none;
+        }
+
+        @media (min-width: 920px) {
+            a {
+                font-size: 16px;
+            }
+            .hide-mobile {
+                display: flex;
+            }
+        }
+
+    }
+</style>
+<nav class="section-5a7e8094-a39e-4bbe-9b79-cb8ea4a44334" aria-label="Breadcrumb">
+    <ol>
+        <li class="hide-mobile">
+            <a href="/">Home</a>
+            <i class="fa fa-angle-right fa-xs"></i>
+        </li>
+        <li class="">
+            <a href="/pop">
+                pop!_os
+            </a>
+            <i class="fa fa-angle-right fa-xs"></i>
+        </li>
+        <li class="is-active">
+                workflow
+            <i class="fa fa-angle-right fa-xs"></i>
+        </li>
+    </ol>
+</nav>
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement":
+    [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "@id": "https://system76.com/",
+            "name": "Home"
+        }
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "@id": "/pop",
+            "name": "pop!_os"
+        },
+        {
+            "@type": "ListItem",
+            "position": 3,
+            "@id": ,
+            "name": "workflow"
+        }
+    ]
+}
+</script></div>
+    </div>
+</div>
+
+</div></div>
+        <main class="body" id="main-content" role="main" data-currency-code="USD">
+     
+
+    
+
+<section class="page full-width">
+    <div data-content-region="page_builder_content"><div data-layout-id="e9beeb2e-0f64-41ad-8954-a5903349241f">       <div data-sub-layout-container="e7722534-764b-4166-96ff-4823f3fd015a" data-layout-name="Layout">
+    <style data-container-styling="e7722534-764b-4166-96ff-4823f3fd015a">
+        [data-sub-layout-container="e7722534-764b-4166-96ff-4823f3fd015a"] {
+            box-sizing: border-box;
+            display: flex;
+            flex-wrap: wrap;
+            z-index: 0;
+            position: relative;
+            height: ;
+            padding-top: 0px;
+            padding-right: 0px;
+            padding-bottom: 0px;
+            padding-left: 0px;
+            margin-top: 0px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+            border-width: 0px;
+            border-style: solid;
+            border-color: #333333;
+        }
+
+        [data-sub-layout-container="e7722534-764b-4166-96ff-4823f3fd015a"]:after {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background-size: cover;
+            z-index: auto;
+        }
+    </style>
+
+    <div data-sub-layout="a78438dc-ec42-47ed-a035-2f0d2d2f2dc3">
+        <style data-column-styling="a78438dc-ec42-47ed-a035-2f0d2d2f2dc3">
+            [data-sub-layout="a78438dc-ec42-47ed-a035-2f0d2d2f2dc3"] {
+                display: flex;
+                flex-direction: column;
+                box-sizing: border-box;
+                flex-basis: 100%;
+                max-width: 100%;
+                z-index: 0;
+                position: relative;
+                height: ;
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 0px;
+                padding-left: 0px;
+                margin-top: 0px;
+                margin-right: 0px;
+                margin-bottom: 0px;
+                margin-left: 0px;
+                border-width: 0px;
+                border-style: solid;
+                border-color: #333333;
+                justify-content: center;
+            }
+            [data-sub-layout="a78438dc-ec42-47ed-a035-2f0d2d2f2dc3"]:after {
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                background-size: cover;
+                z-index: auto;
+            }
+            @media only screen and (max-width: 700px) {
+                [data-sub-layout="a78438dc-ec42-47ed-a035-2f0d2d2f2dc3"] {
+                    flex-basis: 100%;
+                    max-width: 100%;
+                }
+            }
+        </style>
+        <div data-widget-id="4bd4ed85-eacf-4ee3-aadb-0b05316252bb" data-placement-id="ffd058ba-3346-4dd8-962b-9bb1246870ab" data-placement-status="ACTIVE"><style>
+    .sd-simple-text-4bd4ed85-eacf-4ee3-aadb-0b05316252bb {
+      padding-top: 0px;
+      padding-right: 0px;
+      padding-bottom: 0px;
+      padding-left: 0px;
+
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+
+    }
+
+    .sd-simple-text-4bd4ed85-eacf-4ee3-aadb-0b05316252bb * {
+      margin: 0;
+      padding: 0;
+
+        color: #333333;
+        font-family: inherit;
+        font-weight: 400;
+        font-size: 16px;
+        min-height: 16px;
+
+    }
+
+    .sd-simple-text-4bd4ed85-eacf-4ee3-aadb-0b05316252bb {
+        text-align: center;
+    }
+
+    #sd-simple-text-editable-4bd4ed85-eacf-4ee3-aadb-0b05316252bb {
+      min-width: 14px;
+      line-height: 1.5;
+      display: inline-block;
+    }
+
+    #sd-simple-text-editable-4bd4ed85-eacf-4ee3-aadb-0b05316252bb[data-edit-mode="true"]:hover,
+    #sd-simple-text-editable-4bd4ed85-eacf-4ee3-aadb-0b05316252bb[data-edit-mode="true"]:active,
+    #sd-simple-text-editable-4bd4ed85-eacf-4ee3-aadb-0b05316252bb[data-edit-mode="true"]:focus {
+      outline: 1px dashed #3C64F4;
+    }
+
+    #sd-simple-text-editable-4bd4ed85-eacf-4ee3-aadb-0b05316252bb strong,
+    #sd-simple-text-editable-4bd4ed85-eacf-4ee3-aadb-0b05316252bb strong * {
+      font-weight: bold;
+    }
+</style>
+
+<div class="sd-simple-text-4bd4ed85-eacf-4ee3-aadb-0b05316252bb ">
+  <div id="sd-simple-text-editable-4bd4ed85-eacf-4ee3-aadb-0b05316252bb" data-edit-mode="">
+    <p>POP!_OS WORKFLOW</p>
+  </div>
+</div>
+
+</div>
+        <div data-widget-id="39a576d3-ea1d-4785-a0c4-adf0d41dc951" data-placement-id="8f6b820f-df83-4670-8843-73df340a437f" data-placement-status="ACTIVE"><style>
+    .grecaptcha-badge {
+        visibility: hidden !important;
+    }
+    #modal-lead,
+    #modal-sales-39a576d3-ea1d-4785-a0c4-adf0d41dc951 {
+        padding: 2rem 2.5rem;
+        display: flex !important;
+        align-items: center;
+        @media (min-width: 834px) {
+            width: 535px;
+        }
+        h3 {
+            margin: 0 0 1em 0;
+            text-align: center;
+        }
+        form > div:not(:first-child) {
+            margin-top: 0.5em;
+        }
+
+        .field {
+            margin-bottom: 0.5em;
+        }
+
+        input[type="email"],
+        input[type="text"],
+        textarea {
+            width: 100%;
+        }
+        .submit {
+            margin-top: 1.5em !important;
+            text-align: center;
+            @media (min-width: 600px) {
+                text-align: right;
+            }
+            input[type="submit"] {
+                margin-bottom: 1.5em;
+            }
+        }
+        .legal {
+            font-size: 0.85em;
+            text-align: center;
+            font-style: italic;
+        }
+
+
+    }
+    .section-39a576d3-ea1d-4785-a0c4-adf0d41dc951 {
+        margin: 0 0 0px 0;
+        padding: 16px 16px;
+        text-align: center;
+        background-color: #FFFFFF;
+        color: #574F4A;
+        @media (min-width: 1280px) {
+            padding: 16px 0px;
+        }
+    }
+
+    .container-39a576d3-ea1d-4785-a0c4-adf0d41dc951 {
+        max-width: 676px;
+        margin: 0 auto;
+        padding: 0 12px;
+    }
+
+    .container-39a576d3-ea1d-4785-a0c4-adf0d41dc951 .m-0 {
+        margin: 0 !important;
+    }
+
+    .container-39a576d3-ea1d-4785-a0c4-adf0d41dc951 .heading {
+        color: #574F4A;
+        text-align: center;
+    }
+
+    .container-39a576d3-ea1d-4785-a0c4-adf0d41dc951 p {
+        margin: 1rem 0;
+        text-align: center;
+    }
+
+    .arrow-39a576d3-ea1d-4785-a0c4-adf0d41dc951 {
+        text-align: left;
+        display: flex;
+
+        justify-content: center;
+    }
+
+    .arrow-39a576d3-ea1d-4785-a0c4-adf0d41dc951 a {
+        color: #574F4A;
+        font-family: var(--font-family-slab);
+        font-style: normal;
+        font-size: 16px;
+        text-transform: uppercase;
+        line-height: 24px;
+    }
+
+    .button-39a576d3-ea1d-4785-a0c4-adf0d41dc951 {
+        background-color: var(--color-light-form-button-primary);
+        border-color:  var(--color-light-form-button-primary);
+        color: var(--color-black);
+        margin: 0;
+        white-space: normal;
+    }
+
+    .cta-container-39a576d3-ea1d-4785-a0c4-adf0d41dc951 {
+        margin: 24px 0 0 0;
+        text-align: center;
+    }
+
+    .button-39a576d3-ea1d-4785-a0c4-adf0d41dc951.button-secondary {
+        background-color: var(--color-light-form-button-secondary);
+        border-color:  var(--color-light-form-button-secondary);
+    }
+
+    .button-39a576d3-ea1d-4785-a0c4-adf0d41dc951:hover, .button-39a576d3-ea1d-4785-a0c4-adf0d41dc951:focus {
+        background-color: var(--color-light-form-button-primary-light);
+        border-color:  var(--color-light-form-button-primary-light);
+    }
+
+    .button-39a576d3-ea1d-4785-a0c4-adf0d41dc951.button-secondary:hover, .button-39a576d3-ea1d-4785-a0c4-adf0d41dc951.button-secondary:focus {
+        background-color: var(--color-light-form-button-secondary-light);
+        border-color:  var(--color-light-form-button-secondary-light);
+    }
+
+    .button-39a576d3-ea1d-4785-a0c4-adf0d41dc951:active {
+        background-color: var(--color-light-form-button-primary);
+        border-color:  var(--color-light-form-button-primary);
+    }
+
+    .button-39a576d3-ea1d-4785-a0c4-adf0d41dc951.button-secondary:active {
+        background-color: var(--color-light-form-button-secondary);
+        border-color:  var(--color-light-form-button-secondary);
+    }
+
+    @media (min-width: 700px) {
+        .container-39a576d3-ea1d-4785-a0c4-adf0d41dc951 {
+            padding: 0;
+        }
+
+        .container-39a576d3-ea1d-4785-a0c4-adf0d41dc951 .heading {
+            text-align: center;
+        }
+
+        .container-39a576d3-ea1d-4785-a0c4-adf0d41dc951 p {
+            text-align: center;
+        }
+
+        .cta-container-39a576d3-ea1d-4785-a0c4-adf0d41dc951 {
+            text-align: center;
+        }
+
+        .arrow-39a576d3-ea1d-4785-a0c4-adf0d41dc951 {
+            justify-content: center;
+        }
+    }
+
+</style>
+<section class="section-39a576d3-ea1d-4785-a0c4-adf0d41dc951">
+    <div class="container-39a576d3-ea1d-4785-a0c4-adf0d41dc951">
+            <h2 class="m-0 heading">streamline Your Workflow</h2>
+        <p id="markdown-area-39a576d3-ea1d-4785-a0c4-adf0d41dc951" class="paragraph-1">To encourage discovery, Pop!_OS is designed for fast navigation, easy workspace organization, and fluid, convenient workflow. </p>
+
+    </div>
+</section>
+<script type="module">
+    import { marked } from "https://cdn.jsdelivr.net/npm/marked/lib/marked.esm.js";
+
+    ;(async () => {
+        if (marked) {
+            var el = document.getElementById('markdown-area-39a576d3-ea1d-4785-a0c4-adf0d41dc951');
+            if (el){
+                var md = el.innerHTML;
+
+                if (md) {
+                    el.innerHTML =
+                        marked.parse(md);
+                }
+            }
+        }
+
+    })()
+</script></div>
+        <div data-widget-id="9b6ae3c0-98a4-436f-b020-0dad0ec0ee8a" data-placement-id="0f2e850d-3791-459f-acfb-7dda2c987c14" data-placement-status="ACTIVE"><style>
+    .modal-9b6ae3c0-98a4-436f-b020-0dad0ec0ee8a {
+        max-height: 100%;
+        max-width: 100%;
+        overflow: auto;
+        width: 90vw;
+        border-radius: 0;
+    }
+    .modal-9b6ae3c0-98a4-436f-b020-0dad0ec0ee8a iframe {
+        height: 100%;
+        left: 0;
+        top: 0;
+        width: 100%;
+        position: absolute;
+    }
+    .yt-video {
+        padding: 0 0 56.25% 0;
+        width: 100%;
+    }
+    .section-9b6ae3c0-98a4-436f-b020-0dad0ec0ee8a {
+        margin: 0 0 0px 0;
+        padding: 24px 16px;
+        text-align: center;
+        background-color: #ffffff;
+    }
+    .cards-9b6ae3c0-98a4-436f-b020-0dad0ec0ee8a {
+        margin: 0 auto;
+        max-width: 1280px;
+        width: 100%;
+        display: grid;
+        grid-gap: 24px;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        grid-template-rows: auto;
+        justify-content: stretch;
+    }
+    .card-9b6ae3c0-98a4-436f-b020-0dad0ec0ee8a {
+        background-color: rgba(230,245,245,1);
+        color: #574f4a;
+        border-radius: 12px;
+        padding: 2em 1em 2.5em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .card-content-9b6ae3c0-98a4-436f-b020-0dad0ec0ee8a {
+        padding: 0;
+    }
+    .card-content-9b6ae3c0-98a4-436f-b020-0dad0ec0ee8a h2 {
+        color: #574f4a;
+        margin: 0;
+        font-family: var(--font-family-slab);
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: 400;
+        text-transform: none;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+    .card-content-9b6ae3c0-98a4-436f-b020-0dad0ec0ee8a p {
+        margin: 12px 0 0 0;
+        text-align: left;
+        font-family: var(--font-family-sans);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+    }
+    .pic-container-9b6ae3c0-98a4-436f-b020-0dad0ec0ee8a {
+        text-align: center;
+        width: 100%;
+    }
+    .pic-container-9b6ae3c0-98a4-436f-b020-0dad0ec0ee8a img {
+        width: 100%;
+    }
+    .video-wrap {
+        cursor: pointer;
+        height: 0;
+        margin: 1rem 0 0;
+        overflow: hidden;
+        padding-bottom: 56.25%;
+        position: relative;
+        width: 100%;
+    }
+    .video-wrap .play-btn {
+        position: absolute;
+        max-width: 700px;
+        width: 100px;
+        height: 100px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -25%);
+        z-index: 99;
+    }
+    .video-wrap .play-btn svg {
+        transition: all .2s ease;
+        fill: rgba(255,255,255, 0.8);
+        width: 50%;
+    }
+    .video-wrap .play-btn:hover svg,
+    .video-wrap .play-btn:focus svg {
+        fill: #fff;
+    }
+    @media (min-width: 1024px) {
+        .cards-9b6ae3c0-98a4-436f-b020-0dad0ec0ee8a {
+            grid-template-columns: repeat(1, minmax(0, 1fr));
+        }
+        .cards-9b6ae3c0-98a4-436f-b020-0dad0ec0ee8a.count2,
+        .cards-9b6ae3c0-98a4-436f-b020-0dad0ec0ee8a.count4 {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+        .cards-9b6ae3c0-98a4-436f-b020-0dad0ec0ee8a.count3 {
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+        }
+        .card {
+            padding: 2em 2em 3em;
+        }
+        .card-content-9b6ae3c0-98a4-436f-b020-0dad0ec0ee8a {
+
+        }
+        .card-content-9b6ae3c0-98a4-436f-b020-0dad0ec0ee8a h2 {
+            font-size: 28px;
+            line-height: 36px;
+            text-align: center;
+        }
+        .card-content-9b6ae3c0-98a4-436f-b020-0dad0ec0ee8a p {
+            text-align: left;
+        }
+    }
+    @media (min-width: 1280px) {
+        .modal-9b6ae3c0-98a4-436f-b020-0dad0ec0ee8a {
+            width: 60vw;
+        }
+        .section-9b6ae3c0-98a4-436f-b020-0dad0ec0ee8a {
+            padding: 24px 0;
+        }
+        .cards-9b6ae3c0-98a4-436f-b020-0dad0ec0ee8a {
+            padding: 0;
+        }
+        .card-content-9b6ae3c0-98a4-436f-b020-0dad0ec0ee8a h2 {
+            font-family: var(--font-family-slab);
+            font-size: 32px;
+            line-height: 40px;
+            text-align: center;
+        }
+        .card-content-9b6ae3c0-98a4-436f-b020-0dad0ec0ee8a p {
+            font-weight: 18px;
+            line-height: 32px;
+            text-align: left;
+        }
+    }
+    @media (min-width: 1440px) {
+        .cards-9b6ae3c0-98a4-436f-b020-0dad0ec0ee8a {
+            grid-template-columns: repeat(1, minmax(0, 1fr));
+        }
+        .cards-9b6ae3c0-98a4-436f-b020-0dad0ec0ee8a.count4 {
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+        }
+    }
+</style>
+<section id="workspaces-one" class="section-9b6ae3c0-98a4-436f-b020-0dad0ec0ee8a">
+    <div class="cards-9b6ae3c0-98a4-436f-b020-0dad0ec0ee8a count2">
+        
+        <div id="modal-workspaces-one-1" class="modal modal-9b6ae3c0-98a4-436f-b020-0dad0ec0ee8a" data-reveal="">
+            <div class="modal-content">
+                <div class="yt-video">
+                    <iframe src="https://www.youtube-nocookie.com/embed/SrWw2LeZ21U?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" height="315" width="560" allowfullscreen=""></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="card-9b6ae3c0-98a4-436f-b020-0dad0ec0ee8a">
+            <div class="card-content-9b6ae3c0-98a4-436f-b020-0dad0ec0ee8a">
+                <h2>Workflow Customization</h2>
+                <p>While you’ve got your wheels turning, take the scenic route with a dock and touchpad gestures, or race along a minimalist track from behind the wheel of a revving keyboard. With a variety of both mouse-driven and keyboard-driven customizations, you’re empowered to navigate your workflow the way you’ve always wanted.</p>
+            </div>
+            <a href="#modal-workspaces-one-1" data-reveal-id="modal-workspaces-one-1" border="0">
+                <div class="video-wrap">
+                    <div class="play-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 494.148 494.148" xml:space="preserve">
+                        <path d="M405.284,201.188L130.804,13.28C118.128,4.596,105.356,0,94.74,0C74.216,0,61.52,16.472,61.52,44.044v406.124c0,27.54,12.68,43.98,33.156,43.98c10.632,0,23.2-4.6,35.904-13.308l274.608-187.904c17.66-12.104,27.44-28.392,27.44-45.884C432.632,229.572,422.964,213.288,405.284,201.188z"></path>
+                    </svg>
+                    </div>
+
+                    <div class="pic-container-9b6ae3c0-98a4-436f-b020-0dad0ec0ee8a">
+                        <picture class="thumb-9b6ae3c0-98a4-436f-b020-0dad0ec0ee8a">
+                            <source srcset="https://img.youtube.com/vi/SrWw2LeZ21U/maxresdefault.jpg" type="image/jpg">
+                            <img alt="Workflow and customization video" src="https://img.youtube.com/vi/SrWw2LeZ21U/maxresdefault.jpg">
+                        </picture>
+                    </div>
+
+
+                    <prismic-image :field="card.thumbnail" class="video">
+                </prismic-image></div>
+            </a>
+        </div>
+        <div id="modal-workspaces-one-2" class="modal modal-9b6ae3c0-98a4-436f-b020-0dad0ec0ee8a" data-reveal="">
+            <div class="modal-content">
+                <div class="yt-video">
+                    <iframe src="https://www.youtube-nocookie.com/embed/-fltwBKsMY0?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" height="315" width="560" allowfullscreen=""></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="card-9b6ae3c0-98a4-436f-b020-0dad0ec0ee8a">
+            <div class="card-content-9b6ae3c0-98a4-436f-b020-0dad0ec0ee8a">
+                <h2>Auto-Tiling With Pop Shell</h2>
+                <p>Pop!_OS uses auto-tiling for the same reason that people hire assistants: Organizing your work is incredibly time-consuming. Sure, you could still move, resize, and arrange windows yourself, but why spend the time when your OS does it for you? Auto-tiling helps you be both organized and efficient, and is especially convenient on large displays.</p>
+            </div>
+            <a href="#modal-workspaces-one-2" data-reveal-id="modal-workspaces-one-2" border="0">
+                <div class="video-wrap">
+                    <div class="play-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 494.148 494.148" xml:space="preserve">
+                        <path d="M405.284,201.188L130.804,13.28C118.128,4.596,105.356,0,94.74,0C74.216,0,61.52,16.472,61.52,44.044v406.124c0,27.54,12.68,43.98,33.156,43.98c10.632,0,23.2-4.6,35.904-13.308l274.608-187.904c17.66-12.104,27.44-28.392,27.44-45.884C432.632,229.572,422.964,213.288,405.284,201.188z"></path>
+                    </svg>
+                    </div>
+
+                    <div class="pic-container-9b6ae3c0-98a4-436f-b020-0dad0ec0ee8a">
+                        <picture class="thumb-9b6ae3c0-98a4-436f-b020-0dad0ec0ee8a">
+                            <source srcset="https://img.youtube.com/vi/-fltwBKsMY0/maxresdefault.jpg" type="image/jpg">
+                            <img alt="Auto-Tiling With Pop Shell video" src="https://img.youtube.com/vi/-fltwBKsMY0/maxresdefault.jpg">
+                        </picture>
+                    </div>
+
+
+                    <prismic-image :field="card.thumbnail" class="video">
+                </prismic-image></div>
+            </a>
+        </div>
+    </div>
+</section></div>
+        <div data-widget-id="f9608025-5424-440f-b9c8-50e4b3cc75c4" data-placement-id="31f27587-2496-422b-be96-602b05ad6549" data-placement-status="ACTIVE"><style>
+    .modal-f9608025-5424-440f-b9c8-50e4b3cc75c4 {
+        max-height: 100%;
+        max-width: 100%;
+        overflow: auto;
+        width: 90vw;
+        border-radius: 0;
+    }
+    .modal-f9608025-5424-440f-b9c8-50e4b3cc75c4 iframe {
+        height: 100%;
+        left: 0;
+        top: 0;
+        width: 100%;
+        position: absolute;
+    }
+    .yt-video {
+        padding: 0 0 56.25% 0;
+        width: 100%;
+    }
+    .section-f9608025-5424-440f-b9c8-50e4b3cc75c4 {
+        margin: 0 0 24px 0;
+        padding: 0px 16px;
+        text-align: center;
+        background-color: #ffffff;
+    }
+    .cards-f9608025-5424-440f-b9c8-50e4b3cc75c4 {
+        margin: 0 auto;
+        max-width: 1280px;
+        width: 100%;
+        display: grid;
+        grid-gap: 24px;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        grid-template-rows: auto;
+        justify-content: stretch;
+    }
+    .card-f9608025-5424-440f-b9c8-50e4b3cc75c4 {
+        background-color: rgba(230,245,245,1);
+        color: #574f4a;
+        border-radius: 12px;
+        padding: 2em 1em 2.5em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .card-content-f9608025-5424-440f-b9c8-50e4b3cc75c4 {
+        padding: 0;
+    }
+    .card-content-f9608025-5424-440f-b9c8-50e4b3cc75c4 h2 {
+        color: #574f4a;
+        margin: 0;
+        font-family: var(--font-family-slab);
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: 400;
+        text-transform: none;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+    .card-content-f9608025-5424-440f-b9c8-50e4b3cc75c4 p {
+        margin: 12px 0 0 0;
+        text-align: left;
+        font-family: var(--font-family-sans);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+    }
+    .pic-container-f9608025-5424-440f-b9c8-50e4b3cc75c4 {
+        text-align: center;
+        width: 100%;
+    }
+    .pic-container-f9608025-5424-440f-b9c8-50e4b3cc75c4 img {
+        width: 100%;
+    }
+    .video-wrap {
+        cursor: pointer;
+        height: 0;
+        margin: 1rem 0 0;
+        overflow: hidden;
+        padding-bottom: 56.25%;
+        position: relative;
+        width: 100%;
+    }
+    .video-wrap .play-btn {
+        position: absolute;
+        max-width: 700px;
+        width: 100px;
+        height: 100px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -25%);
+        z-index: 99;
+    }
+    .video-wrap .play-btn svg {
+        transition: all .2s ease;
+        fill: rgba(255,255,255, 0.8);
+        width: 50%;
+    }
+    .video-wrap .play-btn:hover svg,
+    .video-wrap .play-btn:focus svg {
+        fill: #fff;
+    }
+    @media (min-width: 1024px) {
+        .cards-f9608025-5424-440f-b9c8-50e4b3cc75c4 {
+            grid-template-columns: repeat(1, minmax(0, 1fr));
+        }
+        .cards-f9608025-5424-440f-b9c8-50e4b3cc75c4.count2,
+        .cards-f9608025-5424-440f-b9c8-50e4b3cc75c4.count4 {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+        .cards-f9608025-5424-440f-b9c8-50e4b3cc75c4.count3 {
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+        }
+        .card {
+            padding: 2em 2em 3em;
+        }
+        .card-content-f9608025-5424-440f-b9c8-50e4b3cc75c4 {
+
+        }
+        .card-content-f9608025-5424-440f-b9c8-50e4b3cc75c4 h2 {
+            font-size: 28px;
+            line-height: 36px;
+            text-align: center;
+        }
+        .card-content-f9608025-5424-440f-b9c8-50e4b3cc75c4 p {
+            text-align: left;
+        }
+    }
+    @media (min-width: 1280px) {
+        .modal-f9608025-5424-440f-b9c8-50e4b3cc75c4 {
+            width: 60vw;
+        }
+        .section-f9608025-5424-440f-b9c8-50e4b3cc75c4 {
+            padding: 0px 0;
+        }
+        .cards-f9608025-5424-440f-b9c8-50e4b3cc75c4 {
+            padding: 0;
+        }
+        .card-content-f9608025-5424-440f-b9c8-50e4b3cc75c4 h2 {
+            font-family: var(--font-family-slab);
+            font-size: 32px;
+            line-height: 40px;
+            text-align: center;
+        }
+        .card-content-f9608025-5424-440f-b9c8-50e4b3cc75c4 p {
+            font-weight: 18px;
+            line-height: 32px;
+            text-align: left;
+        }
+    }
+    @media (min-width: 1440px) {
+        .cards-f9608025-5424-440f-b9c8-50e4b3cc75c4 {
+            grid-template-columns: repeat(1, minmax(0, 1fr));
+        }
+        .cards-f9608025-5424-440f-b9c8-50e4b3cc75c4.count4 {
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+        }
+    }
+</style>
+<section id="workspaces-two" class="section-f9608025-5424-440f-b9c8-50e4b3cc75c4">
+    <div class="cards-f9608025-5424-440f-b9c8-50e4b3cc75c4 count3">
+        
+        <div id="modal-workspaces-two-1" class="modal modal-f9608025-5424-440f-b9c8-50e4b3cc75c4" data-reveal="">
+            <div class="modal-content">
+                <div class="yt-video">
+                    <iframe src="https://www.youtube-nocookie.com/embed/USQjxLP1Z5k?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" height="315" width="560" allowfullscreen=""></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="card-f9608025-5424-440f-b9c8-50e4b3cc75c4">
+            <div class="card-content-f9608025-5424-440f-b9c8-50e4b3cc75c4">
+                <h2>Workspaces</h2>
+                <p>Keep relevant content together and irrelevant content out of sight. When the clutter overwhelms you, just toss it onto another desktop. Problem solved.</p>
+            </div>
+            <a href="#modal-workspaces-two-1" data-reveal-id="modal-workspaces-two-1" border="0">
+                <div class="video-wrap">
+                    <div class="play-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 494.148 494.148" xml:space="preserve">
+                        <path d="M405.284,201.188L130.804,13.28C118.128,4.596,105.356,0,94.74,0C74.216,0,61.52,16.472,61.52,44.044v406.124c0,27.54,12.68,43.98,33.156,43.98c10.632,0,23.2-4.6,35.904-13.308l274.608-187.904c17.66-12.104,27.44-28.392,27.44-45.884C432.632,229.572,422.964,213.288,405.284,201.188z"></path>
+                    </svg>
+                    </div>
+
+                    <div class="pic-container-f9608025-5424-440f-b9c8-50e4b3cc75c4">
+                        <picture class="thumb-f9608025-5424-440f-b9c8-50e4b3cc75c4">
+                            <source srcset="https://img.youtube.com/vi/USQjxLP1Z5k/maxresdefault.jpg" type="image/jpg">
+                            <img alt="Workspaces video" src="https://img.youtube.com/vi/USQjxLP1Z5k/maxresdefault.jpg">
+                        </picture>
+                    </div>
+
+
+                    <prismic-image :field="card.thumbnail" class="video">
+                </prismic-image></div>
+            </a>
+        </div>
+        <div id="modal-workspaces-two-2" class="modal modal-f9608025-5424-440f-b9c8-50e4b3cc75c4" data-reveal="">
+            <div class="modal-content">
+                <div class="yt-video">
+                    <iframe src="https://www.youtube-nocookie.com/embed/aqj0cRTZaVE?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" height="315" width="560" allowfullscreen=""></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="card-f9608025-5424-440f-b9c8-50e4b3cc75c4">
+            <div class="card-content-f9608025-5424-440f-b9c8-50e4b3cc75c4">
+                <h2>Keyboard Navigation</h2>
+                <p>Arm yourself with a dark-lord level of power at your fingertips. Use keyboard shortcuts to move/resize windows, search for anything, launch applications, and more!</p>
+            </div>
+            <a href="#modal-workspaces-two-2" data-reveal-id="modal-workspaces-two-2" border="0">
+                <div class="video-wrap">
+                    <div class="play-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 494.148 494.148" xml:space="preserve">
+                        <path d="M405.284,201.188L130.804,13.28C118.128,4.596,105.356,0,94.74,0C74.216,0,61.52,16.472,61.52,44.044v406.124c0,27.54,12.68,43.98,33.156,43.98c10.632,0,23.2-4.6,35.904-13.308l274.608-187.904c17.66-12.104,27.44-28.392,27.44-45.884C432.632,229.572,422.964,213.288,405.284,201.188z"></path>
+                    </svg>
+                    </div>
+
+                    <div class="pic-container-f9608025-5424-440f-b9c8-50e4b3cc75c4">
+                        <picture class="thumb-f9608025-5424-440f-b9c8-50e4b3cc75c4">
+                            <source srcset="https://img.youtube.com/vi/aqj0cRTZaVE/maxresdefault.jpg" type="image/jpg">
+                            <img alt="Keyboard Navigation video" src="https://img.youtube.com/vi/aqj0cRTZaVE/maxresdefault.jpg">
+                        </picture>
+                    </div>
+
+
+                    <prismic-image :field="card.thumbnail" class="video">
+                </prismic-image></div>
+            </a>
+        </div>
+        <div id="modal-workspaces-two-3" class="modal modal-f9608025-5424-440f-b9c8-50e4b3cc75c4" data-reveal="">
+            <div class="modal-content">
+                <div class="yt-video">
+                    <iframe src="https://www.youtube-nocookie.com/embed/1TSdFWY_U9A?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" height="315" width="560" allowfullscreen=""></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="card-f9608025-5424-440f-b9c8-50e4b3cc75c4">
+            <div class="card-content-f9608025-5424-440f-b9c8-50e4b3cc75c4">
+                <h2>Stacking</h2>
+                <p>Stack application windows atop one another like tabs in a web browser. Just remember to switch off of Steam when the boss walks in.</p>
+            </div>
+            <a href="#modal-workspaces-two-3" data-reveal-id="modal-workspaces-two-3" border="0">
+                <div class="video-wrap">
+                    <div class="play-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 494.148 494.148" xml:space="preserve">
+                        <path d="M405.284,201.188L130.804,13.28C118.128,4.596,105.356,0,94.74,0C74.216,0,61.52,16.472,61.52,44.044v406.124c0,27.54,12.68,43.98,33.156,43.98c10.632,0,23.2-4.6,35.904-13.308l274.608-187.904c17.66-12.104,27.44-28.392,27.44-45.884C432.632,229.572,422.964,213.288,405.284,201.188z"></path>
+                    </svg>
+                    </div>
+
+                    <div class="pic-container-f9608025-5424-440f-b9c8-50e4b3cc75c4">
+                        <picture class="thumb-f9608025-5424-440f-b9c8-50e4b3cc75c4">
+                            <source srcset="https://cdn11.bigcommerce.com/s-pywjnxrcr2/images/stencil/original/image-manager/pop-stacking-vid-preview.png?t=1741032645" type="image/png">
+                            <img alt="Stacking video" src="https://cdn11.bigcommerce.com/s-pywjnxrcr2/images/stencil/original/image-manager/pop-stacking-vid-preview.png?t=1741032645">
+                        </picture>
+                    </div>
+
+
+                    <prismic-image :field="card.thumbnail" class="video">
+                </prismic-image></div>
+            </a>
+        </div>
+    </div>
+</section></div>
+        <div data-widget-id="22a7624a-f1eb-4cfe-840e-aedbce5b2401" data-placement-id="b64e4a08-a06b-4242-b23b-7e4855b09d32" data-placement-status="ACTIVE"><style>
+    .grecaptcha-badge {
+        visibility: hidden !important;
+    }
+    #modal-lead,
+    #modal-sales-22a7624a-f1eb-4cfe-840e-aedbce5b2401 {
+        padding: 2rem 2.5rem;
+        display: flex !important;
+        align-items: center;
+        @media (min-width: 834px) {
+            width: 535px;
+        }
+        h3 {
+            margin: 0 0 1em 0;
+            text-align: center;
+        }
+        form > div:not(:first-child) {
+            margin-top: 0.5em;
+        }
+
+        .field {
+            margin-bottom: 0.5em;
+        }
+
+        input[type="email"],
+        input[type="text"],
+        textarea {
+            width: 100%;
+        }
+        .submit {
+            margin-top: 1.5em !important;
+            text-align: center;
+            @media (min-width: 600px) {
+                text-align: right;
+            }
+            input[type="submit"] {
+                margin-bottom: 1.5em;
+            }
+        }
+        .legal {
+            font-size: 0.85em;
+            text-align: center;
+            font-style: italic;
+        }
+
+
+    }
+    .section-22a7624a-f1eb-4cfe-840e-aedbce5b2401 {
+        margin: 0 0 24px 0;
+        padding: 24px 16px;
+        text-align: center;
+        background-color: #FFFFFF;
+        color: #574F4A;
+        @media (min-width: 1280px) {
+            padding: 24px 0px;
+        }
+    }
+
+    .container-22a7624a-f1eb-4cfe-840e-aedbce5b2401 {
+        max-width: 676px;
+        margin: 0 auto;
+        padding: 0 12px;
+    }
+
+    .container-22a7624a-f1eb-4cfe-840e-aedbce5b2401 .m-0 {
+        margin: 0 !important;
+    }
+
+    .container-22a7624a-f1eb-4cfe-840e-aedbce5b2401 .heading {
+        color: #574F4A;
+        text-align: center;
+    }
+
+    .container-22a7624a-f1eb-4cfe-840e-aedbce5b2401 p {
+        margin: 1rem 0;
+        text-align: center;
+    }
+
+    .arrow-22a7624a-f1eb-4cfe-840e-aedbce5b2401 {
+        text-align: left;
+        display: flex;
+
+        justify-content: center;
+    }
+
+    .arrow-22a7624a-f1eb-4cfe-840e-aedbce5b2401 a {
+        color: #574F4A;
+        font-family: var(--font-family-slab);
+        font-style: normal;
+        font-size: 16px;
+        text-transform: uppercase;
+        line-height: 24px;
+    }
+
+    .button-22a7624a-f1eb-4cfe-840e-aedbce5b2401 {
+        background-color: var(--color-light-form-button-primary);
+        border-color:  var(--color-light-form-button-primary);
+        color: var(--color-black);
+        margin: 0;
+        white-space: normal;
+    }
+
+    .cta-container-22a7624a-f1eb-4cfe-840e-aedbce5b2401 {
+        margin: 32px 0 0 0;
+        text-align: center;
+    }
+
+    .button-22a7624a-f1eb-4cfe-840e-aedbce5b2401.button-secondary {
+        background-color: var(--color-light-form-button-secondary);
+        border-color:  var(--color-light-form-button-secondary);
+    }
+
+    .button-22a7624a-f1eb-4cfe-840e-aedbce5b2401:hover, .button-22a7624a-f1eb-4cfe-840e-aedbce5b2401:focus {
+        background-color: var(--color-light-form-button-primary-light);
+        border-color:  var(--color-light-form-button-primary-light);
+    }
+
+    .button-22a7624a-f1eb-4cfe-840e-aedbce5b2401.button-secondary:hover, .button-22a7624a-f1eb-4cfe-840e-aedbce5b2401.button-secondary:focus {
+        background-color: var(--color-light-form-button-secondary-light);
+        border-color:  var(--color-light-form-button-secondary-light);
+    }
+
+    .button-22a7624a-f1eb-4cfe-840e-aedbce5b2401:active {
+        background-color: var(--color-light-form-button-primary);
+        border-color:  var(--color-light-form-button-primary);
+    }
+
+    .button-22a7624a-f1eb-4cfe-840e-aedbce5b2401.button-secondary:active {
+        background-color: var(--color-light-form-button-secondary);
+        border-color:  var(--color-light-form-button-secondary);
+    }
+
+    @media (min-width: 700px) {
+        .container-22a7624a-f1eb-4cfe-840e-aedbce5b2401 {
+            padding: 0;
+        }
+
+        .container-22a7624a-f1eb-4cfe-840e-aedbce5b2401 .heading {
+            text-align: center;
+        }
+
+        .container-22a7624a-f1eb-4cfe-840e-aedbce5b2401 p {
+            text-align: center;
+        }
+
+        .cta-container-22a7624a-f1eb-4cfe-840e-aedbce5b2401 {
+            text-align: center;
+        }
+
+        .arrow-22a7624a-f1eb-4cfe-840e-aedbce5b2401 {
+            justify-content: center;
+        }
+    }
+
+</style>
+<section class="section-22a7624a-f1eb-4cfe-840e-aedbce5b2401">
+    <div class="container-22a7624a-f1eb-4cfe-840e-aedbce5b2401">
+            <h2 class="m-0 heading">Unleash Your Potential on Pop!_OS</h2>
+
+        <div class="cta-container-22a7624a-f1eb-4cfe-840e-aedbce5b2401 center">
+
+            <input type="button" class="button button-22a7624a-f1eb-4cfe-840e-aedbce5b2401 button-secondary" value="Download Pop!" onclick="location.href='/pop/download'">
+
+        </div>
+    </div>
+</section>
+<script type="module">
+    import { marked } from "https://cdn.jsdelivr.net/npm/marked/lib/marked.esm.js";
+
+    ;(async () => {
+        if (marked) {
+            var el = document.getElementById('markdown-area-22a7624a-f1eb-4cfe-840e-aedbce5b2401');
+            if (el){
+                var md = el.innerHTML;
+
+                if (md) {
+                    el.innerHTML =
+                        marked.parse(md);
+                }
+            }
+        }
+
+    })()
+</script></div>
+    </div>
+</div>
+
+</div></div>
+
+    <div class="page-content page-content--centered">
+            <p></p>
+    </div>
+
+</section>
+
+
+
+    <div id="modal" class="modal" data-reveal data-prevent-quick-search-close>
+    <button class="modal-close"
+        type="button"
+        title="Close"
+        
+>
+    <span class="aria-description--hidden">Close</span>
+    <span aria-hidden="true">&#215;</span>
+</button>
+    <div id="modal-content" class="modal-content"></div>
+    <div class="loadingOverlay"></div>
+</div>
+    <div id="alert-modal" class="modal modal--alert modal--small" data-reveal data-prevent-quick-search-close>
+    <div class="alert-icon error-icon">
+        <span class="icon-content">
+            <span class="line line-left"></span>
+            <span class="line line-right"></span>
+        </span>
+    </div>
+
+    <div class="alert-icon warning-icon">
+        <div class="icon-content">!</div>
+    </div>
+
+    <div class="modal-content"></div>
+
+    <div class="button-container">
+        <button type="button" class="confirm button" data-reveal-close>OK</button>
+        <button type="button" class="cancel button" data-reveal-close>Cancel</button>
+    </div>
+</div>
+</main>
+                <div id="modal-newsletter" class="modal" data-reveal>
+      <a href="#" class="modal-close" role="button">
+        <span aria-hidden="true">&#215;</span>
+    </a>
+    <div class="modal-content">
+      <h3>Subscribe</h3>
+      <div>
+        <p>Select one or more options below to subscribe.</p>
+      </div>
+      <form
+        action="https://system76.us10.list-manage.com/subscribe/post?u=00040e6ab34b3c90fc6a7c925&amp;id=7690d88ee1&amp;f_id=0048efe1f0"
+        method="post"
+        id="mc-embedded-subscribe-form"
+        name="mc-embedded-subscribe-form"
+        class="validate"
+      >
+        <div>
+          <label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label><br>
+          <input
+            type="email"
+            name="EMAIL"
+            class="required email"
+            id="mce-EMAIL"
+          >
+        </div>
+
+        <div>
+          <input
+            type="checkbox"
+            name="group[14426][1]"
+            id="mce-group[14426]-14426-0"
+            value=""
+          >
+          <label for="mce-group[14426]-14426-0">New Hardware Announcements</label>
+        </div>
+
+        <div>
+          <input
+            type="checkbox"
+            name="group[14426][2]"
+            id="mce-group[14426]-14426-1"
+            value=""
+          >
+          <label for="mce-group[14426]-14426-1">Company News and Stories</label>
+        </div>
+
+        <div>
+          <input
+            type="checkbox"
+            name="group[14426][4]"
+            id="mce-group[14426]-14426-2"
+            value=""
+          >
+          <label for="mce-group[14426]-14426-2">Pop!_OS & COSMIC Announcements</label>
+        </div>
+
+        <div>
+          <input
+            type="checkbox"
+            name="group[14426][8]"
+            id="mce-group[14426]-14426-3"
+            value=""
+          >
+          <label for="mce-group[14426]-14426-3">Sales and Promotions</label>
+        </div>
+
+        <div class="submit">
+          <input
+            type="submit"
+            name="subscribe"
+            id="mc-embedded-subscribe"
+            class="button"
+            value="Subscribe">
+        </div>
+      </form>
+      <div>
+        <p class="legal">Your email address will be used in accordance with our <a data-v-f9fa161c="" href="/privacy" target="_blank">privacy policy</a>.</p>
+      </div>
+
+    </div>
+</div>
+<footer class="footer">
+    <div class="container">
+      <nav class="nav">
+        <div class="links">
+          <a
+            href="https://system76.com/contact"
+            class="link"
+          >
+            Contact
+          </a>
+
+          <a
+            href="https://system76.com/shipping"
+            class="link"
+          >
+            Shipping
+          </a>
+
+          <a
+            href="https://system76.com/careers"
+            class="link"
+          >
+            Careers
+          </a>
+
+          <a
+            href="https://system76.com/about"
+            class="link"
+          >
+            About Us
+          </a>
+        </div>
+
+        <div class="links">
+
+
+          <a
+            href="https://system76.com/sustainability"
+            class="link"
+          >
+            Sustainability
+          </a>
+
+          <a
+            href="https://system76.com/privacy-and-legal"
+            class="link"
+          >
+            Privacy & Legal
+          </a>
+
+          <a
+            href="http://blog.system76.com/"
+            class="link"
+          >
+            Blog
+          </a>
+
+          <a
+            href="https://system76.com/donate"
+            class="link"
+          >
+            Donate
+          </a>
+        </div>
+        <div class="connections">
+          <div>
+
+            <div class="subscribe">
+              <p>Subscribe for updates on products, OS features, and promotions.</p>
+              <p>
+                <a href="#modal-newsletter" data-reveal-id="modal-newsletter" class="button">
+                  Subscribe
+                </a>
+              </p>
+            </div>
+
+            <div class="socials">
+
+              <a
+                aria-label="RSS"
+                href="https://blog.system76.com/rss.xml"
+                rel="noopener"
+                target="_blank"
+                title="Blog RSS Feed"
+                class="social"
+              >
+                <svg>
+                    <use href="#icon-square-rss" />
+                </svg>
+              </a>
+
+              <a
+                aria-label="Linkedin"
+                href="https://www.linkedin.com/company/system76"
+                rel="noopener"
+                target="_blank"
+                title="Linkedin"
+                class="social"
+              >
+                <svg>
+                  <use href="#icon-linkedin" />
+                </svg>
+              </a>
+
+              <a
+                aria-label="GitHub"
+                href="https://github.com/system76"
+                rel="noopener"
+                target="_blank"
+                title="GitHub"
+                class="social"
+              >
+                <svg>
+                  <use href="#icon-github" />
+                </svg>
+              </a>
+
+              <a
+                aria-label="YouTube"
+                href="https://youtube.com/system76/"
+                rel="noopener"
+                target="_blank"
+                title="Youtube"
+                class="social"
+              >
+                <svg>
+                    <use href="#icon-square-youtube" />
+                </svg>
+              </a>
+
+              <a
+                aria-label="Instagram"
+                href="https://instagram.com/system76_com"
+                rel="noopener"
+                target="_blank"
+                title="Instagram"
+                class="social"
+              >
+                <svg>
+                  <use href="#icon-instagram" />
+                </svg>
+              </a>
+
+              <a
+                aria-label="X (formerly Twiiter)"
+                href="https://x.com/system76/"
+                rel="noopener"
+                target="_blank"
+                title="X (formerly Twitter)"
+                class="social"
+              >
+                <svg>
+                  <use href="#icon-square-x" />
+                </svg>
+              </a>
+
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="copy">
+        <div class="copyright">
+            Copyright &copy; 2025 System76, Inc.
+        </div>
+        <div class="trademarks">
+            * Financing issued by WebBank, member FDIC and serviced by Klarna.
+            <a
+              href="http://cdn.klarna.com/1.0/shared/content/legal/terms/0/en_us/account-terms"
+              rel="noopener"
+              target="_blank"
+            >
+              See terms.
+            </a>
+            <br>
+            Intel, the Intel Logo, Intel Core, Iris, and Xeon are trademarks of
+            Intel Corporation or its subsidiaries in the U.S. and/or other
+            countries.
+        </div>
+      </div>
+    </div>
+</footer>
+
+        <script>window.__webpack_public_path__ = "https://cdn11.bigcommerce.com/s-pywjnxrcr2/stencil/0ff768d0-35d1-013e-426f-3234c08a9e7e/dist/";</script>
+        <script>
+            function onThemeBundleMain() {
+                window.stencilBootstrap("page", "{\"zoomSize\":\"1280x1280\",\"productSize\":\"500x659\",\"genericError\":\"Oops! Something went wrong.\",\"urls\":{\"home\":\"https://system76.com/\",\"account\":{\"index\":\"/account.php\",\"orders\":{\"all\":\"/account.php?action=order_status\",\"completed\":\"/account.php?action=view_orders\",\"save_new_return\":\"/account.php?action=save_new_return\"},\"update_action\":\"/account.php?action=update_account\",\"returns\":\"/account.php?action=view_returns\",\"addresses\":\"/account.php?action=address_book\",\"inbox\":\"/account.php?action=inbox\",\"send_message\":\"/account.php?action=send_message\",\"add_address\":\"/account.php?action=add_shipping_address\",\"wishlists\":{\"all\":\"/wishlist.php\",\"add\":\"/wishlist.php?action=addwishlist\",\"edit\":\"/wishlist.php?action=editwishlist\",\"delete\":\"/wishlist.php?action=deletewishlist\"},\"details\":\"/account.php?action=account_details\",\"recent_items\":\"/account.php?action=recent_items\"},\"brands\":\"https://system76.com/brands/\",\"gift_certificate\":{\"purchase\":\"/giftcertificates.php\",\"redeem\":\"/giftcertificates.php?action=redeem\",\"balance\":\"/giftcertificates.php?action=balance\"},\"auth\":{\"login\":\"/login.php\",\"check_login\":\"/login.php?action=check_login\",\"create_account\":\"/login.php?action=create_account\",\"save_new_account\":\"/login.php?action=save_new_account\",\"forgot_password\":\"/login.php?action=reset_password\",\"send_password_email\":\"/login.php?action=send_password_email\",\"save_new_password\":\"/login.php?action=save_new_password\",\"logout\":\"/login.php?action=logout\"},\"product\":{\"post_review\":\"/postreview.php\"},\"cart\":\"/cart.php\",\"checkout\":{\"single_address\":\"/checkout\",\"multiple_address\":\"/checkout.php?action=multiple\"},\"rss\":{\"products\":[]},\"contact_us_submit\":\"/pages.php?action=sendContactForm\",\"search\":\"/search.php\",\"compare\":\"/compare\",\"sitemap\":\"/sitemap.php\",\"subscribe\":{\"action\":\"/subscribe.php\"}},\"secureBaseUrl\":\"https://system76.com\",\"cartId\":null,\"template\":\"pages/page\",\"validationDictionaryJSON\":\"{\\\"locale\\\":\\\"en\\\",\\\"locales\\\":{\\\"validation_messages.valid_email\\\":\\\"en\\\",\\\"validation_messages.password\\\":\\\"en\\\",\\\"validation_messages.password_match\\\":\\\"en\\\",\\\"validation_messages.invalid_password\\\":\\\"en\\\",\\\"validation_messages.field_not_blank\\\":\\\"en\\\",\\\"validation_messages.certificate_amount\\\":\\\"en\\\",\\\"validation_messages.certificate_amount_range\\\":\\\"en\\\",\\\"validation_messages.price_min_evaluation\\\":\\\"en\\\",\\\"validation_messages.price_max_evaluation\\\":\\\"en\\\",\\\"validation_messages.price_min_not_entered\\\":\\\"en\\\",\\\"validation_messages.price_max_not_entered\\\":\\\"en\\\",\\\"validation_messages.price_invalid_value\\\":\\\"en\\\",\\\"validation_messages.invalid_gift_certificate\\\":\\\"en\\\"},\\\"translations\\\":{\\\"validation_messages.valid_email\\\":\\\"You must enter a valid email.\\\",\\\"validation_messages.password\\\":\\\"You must enter a password.\\\",\\\"validation_messages.password_match\\\":\\\"Your passwords do not match.\\\",\\\"validation_messages.invalid_password\\\":\\\"Passwords must be at least 7 characters and contain both alphabetic and numeric characters.\\\",\\\"validation_messages.field_not_blank\\\":\\\" field cannot be blank.\\\",\\\"validation_messages.certificate_amount\\\":\\\"You must enter a gift certificate amount.\\\",\\\"validation_messages.certificate_amount_range\\\":\\\"You must enter a certificate amount between [MIN] and [MAX]\\\",\\\"validation_messages.price_min_evaluation\\\":\\\"Min. price must be less than max. price.\\\",\\\"validation_messages.price_max_evaluation\\\":\\\"Min. price must be less than max. price.\\\",\\\"validation_messages.price_min_not_entered\\\":\\\"Min. price is required.\\\",\\\"validation_messages.price_max_not_entered\\\":\\\"Max. price is required.\\\",\\\"validation_messages.price_invalid_value\\\":\\\"Input must be greater than 0.\\\",\\\"validation_messages.invalid_gift_certificate\\\":\\\"Please enter your valid certificate code.\\\"}}\",\"validationFallbackDictionaryJSON\":\"{\\\"locale\\\":\\\"en\\\",\\\"locales\\\":{\\\"validation_fallback_messages.valid_email\\\":\\\"en\\\",\\\"validation_fallback_messages.password\\\":\\\"en\\\",\\\"validation_fallback_messages.password_match\\\":\\\"en\\\",\\\"validation_fallback_messages.invalid_password\\\":\\\"en\\\",\\\"validation_fallback_messages.field_not_blank\\\":\\\"en\\\",\\\"validation_fallback_messages.certificate_amount\\\":\\\"en\\\",\\\"validation_fallback_messages.certificate_amount_range\\\":\\\"en\\\",\\\"validation_fallback_messages.price_min_evaluation\\\":\\\"en\\\",\\\"validation_fallback_messages.price_max_evaluation\\\":\\\"en\\\",\\\"validation_fallback_messages.price_min_not_entered\\\":\\\"en\\\",\\\"validation_fallback_messages.price_max_not_entered\\\":\\\"en\\\",\\\"validation_fallback_messages.price_invalid_value\\\":\\\"en\\\",\\\"validation_fallback_messages.invalid_gift_certificate\\\":\\\"en\\\"},\\\"translations\\\":{\\\"validation_fallback_messages.valid_email\\\":\\\"You must enter a valid email.\\\",\\\"validation_fallback_messages.password\\\":\\\"You must enter a password.\\\",\\\"validation_fallback_messages.password_match\\\":\\\"Your passwords do not match.\\\",\\\"validation_fallback_messages.invalid_password\\\":\\\"Passwords must be at least 7 characters and contain both alphabetic and numeric characters.\\\",\\\"validation_fallback_messages.field_not_blank\\\":\\\" field cannot be blank.\\\",\\\"validation_fallback_messages.certificate_amount\\\":\\\"You must enter a gift certificate amount.\\\",\\\"validation_fallback_messages.certificate_amount_range\\\":\\\"You must enter a certificate amount between [MIN] and [MAX]\\\",\\\"validation_fallback_messages.price_min_evaluation\\\":\\\"Min. price must be less than max. price.\\\",\\\"validation_fallback_messages.price_max_evaluation\\\":\\\"Min. price must be less than max. price.\\\",\\\"validation_fallback_messages.price_min_not_entered\\\":\\\"Min. price is required.\\\",\\\"validation_fallback_messages.price_max_not_entered\\\":\\\"Max. price is required.\\\",\\\"validation_fallback_messages.price_invalid_value\\\":\\\"Input must be greater than 0.\\\",\\\"validation_fallback_messages.invalid_gift_certificate\\\":\\\"Please enter your valid certificate code.\\\"}}\",\"validationDefaultDictionaryJSON\":\"{\\\"locale\\\":\\\"en\\\",\\\"locales\\\":{\\\"validation_default_messages.valid_email\\\":\\\"en\\\",\\\"validation_default_messages.password\\\":\\\"en\\\",\\\"validation_default_messages.password_match\\\":\\\"en\\\",\\\"validation_default_messages.invalid_password\\\":\\\"en\\\",\\\"validation_default_messages.field_not_blank\\\":\\\"en\\\",\\\"validation_default_messages.certificate_amount\\\":\\\"en\\\",\\\"validation_default_messages.certificate_amount_range\\\":\\\"en\\\",\\\"validation_default_messages.price_min_evaluation\\\":\\\"en\\\",\\\"validation_default_messages.price_max_evaluation\\\":\\\"en\\\",\\\"validation_default_messages.price_min_not_entered\\\":\\\"en\\\",\\\"validation_default_messages.price_max_not_entered\\\":\\\"en\\\",\\\"validation_default_messages.price_invalid_value\\\":\\\"en\\\",\\\"validation_default_messages.invalid_gift_certificate\\\":\\\"en\\\"},\\\"translations\\\":{\\\"validation_default_messages.valid_email\\\":\\\"You must enter a valid email.\\\",\\\"validation_default_messages.password\\\":\\\"You must enter a password.\\\",\\\"validation_default_messages.password_match\\\":\\\"Your passwords do not match.\\\",\\\"validation_default_messages.invalid_password\\\":\\\"Passwords must be at least 7 characters and contain both alphabetic and numeric characters.\\\",\\\"validation_default_messages.field_not_blank\\\":\\\"The field cannot be blank.\\\",\\\"validation_default_messages.certificate_amount\\\":\\\"You must enter a gift certificate amount.\\\",\\\"validation_default_messages.certificate_amount_range\\\":\\\"You must enter a certificate amount between [MIN] and [MAX]\\\",\\\"validation_default_messages.price_min_evaluation\\\":\\\"Min. price must be less than max. price.\\\",\\\"validation_default_messages.price_max_evaluation\\\":\\\"Min. price must be less than max. price.\\\",\\\"validation_default_messages.price_min_not_entered\\\":\\\"Min. price is required.\\\",\\\"validation_default_messages.price_max_not_entered\\\":\\\"Max. price is required.\\\",\\\"validation_default_messages.price_invalid_value\\\":\\\"Input must be greater than 0.\\\",\\\"validation_default_messages.invalid_gift_certificate\\\":\\\"Please enter your valid certificate code.\\\"}}\",\"carouselArrowAndDotAriaLabel\":\"Go to slide [SLIDE_NUMBER] of [SLIDES_QUANTITY]\",\"carouselActiveDotAriaLabel\":\"active\",\"carouselContentAnnounceMessage\":\"You are currently on slide [SLIDE_NUMBER] of [SLIDES_QUANTITY]\"}").load();
+
+                function browserSupportsFormData() {
+                    return typeof FormData !== 'undefined'
+                        && !!FormData.prototype.keys;
+                }
+                function loadFormDataPolyfillScript(src) {
+                    var formDataPolyfillScript = document.createElement('script');
+                    formDataPolyfillScript.src = src;
+                    formDataPolyfillScript.onerror = function () {
+                        console.error('Failed to load formData polyfill script ' + src);
+                    };
+                    document.body.appendChild(formDataPolyfillScript);
+                }
+
+                if (!browserSupportsFormData()) {
+                    loadFormDataPolyfillScript('https://cdn11.bigcommerce.com/s-pywjnxrcr2/stencil/0ff768d0-35d1-013e-426f-3234c08a9e7e/dist/theme-bundle.polyfill_form_data.js');
+                }
+            }
+        </script>
+        <script async defer src="https://cdn11.bigcommerce.com/s-pywjnxrcr2/stencil/0ff768d0-35d1-013e-426f-3234c08a9e7e/dist/theme-bundle.main.js" onload="onThemeBundleMain()"></script>
+
+        <script type="text/javascript" src="https://cdn11.bigcommerce.com/shared/js/csrf-protection-header-5eeddd5de78d98d146ef4fd71b2aedce4161903e.js"></script>
+<script data-bc-cookie-consent="4" type="text/plain" src='https://chimpstatic.com/mcjs-connected/js/users/00040e6ab34b3c90fc6a7c925/bb64805364cfd7ca29a0a967e.js' defer  ></script><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+
+(function() {
+
+var storeHash247 = 'pywjnxrcr2'; //Replace your storehash here
+
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+const urlSegment = urlParams.get('segment');
+
+if (urlSegment == '247-widgets-migration') {
+var popupContent = '<div id="popup">' +
+        '<p style="font-size: xx-large;color: blue;text-align: center;margin-top: 10%;">Please keep this page open until the popup is closed.</p>' +
+        '</div>';
+
+    $('body').append(popupContent);
+
+ 
+
+    $('#popup').css({
+        'position': 'fixed',
+'top': '50%',
+'left': '50%',
+'transform': 'translate(-50%, -50%)',
+'background': 'lightblue',
+'padding': '20px',
+'border': '1px solid rgb(204, 204, 204)',
+'width': '60%',
+'height': '40%',
+'z-index' : '100'
+    });
+let xhr = new XMLHttpRequest();
+xhr.open('GET', 'https://app.stagingpro.com/pages/getPagesData?storehash=' + storeHash247, true);
+xhr.send();
+xhr.onload = function() {
+var pageList247 = JSON.parse(xhr.response);
+for (var i = 0; i < pageList247.length; i++) {
+collectPageInfo(pageList247[i].id, pageList247[i].url, pageList247[i].templatefile,i,pageList247.length);
+}
+}
+$('#popup').show();
+}
+
+function collectPageInfo(pageId, pageUrl, pageTemplate,page,pageLength) {
+var xhr = new XMLHttpRequest();
+xhr.onreadystatechange = function() {
+if (xhr.readyState == 4) {
+collectRegionInfo(pageId, pageUrl, pageTemplate,page,pageLength, xhr.response);
+}
+}
+xhr.open('GET', pageUrl, true);
+xhr.send();
+
+}
+
+function collectRegionInfo(pageId, pageUrl, pageTemplate,page,pageLength, response) {
+
+var xhr = new XMLHttpRequest();
+xhr.onreadystatechange = function() {
+if (xhr.readyState == 4) {
+postDataToDotnet(pageId, pageUrl, pageTemplate,page,pageLength, xhr.response);
+}
+}
+
+xhr.open('POST', 'https://lyradev.247commerce.co.uk/stagingpro-test/webcrawling.php', true);
+xhr.setRequestHeader('Content-Type', 'text/plain');
+xhr.send(response);
+
+}
+
+function postDataToDotnet(pageId, pageUrl, pageTemplate,page,pageLength, response) {
+let jsonObject = JSON.parse(response);
+let placementBody = {
+'placements': [{
+'pageid': pageId,
+'pageurl': pageUrl,
+'templatefile': pageTemplate,
+'storehash': storeHash247,
+'regions': jsonObject
+}]
+}
+
+var xhr = new XMLHttpRequest();
+xhr.open('POST', 'https://app.stagingpro.com/pages/postplacementdata?storehash=' + storeHash247, true);
+xhr.setRequestHeader('Content-Type', 'application/json');
+xhr.send(JSON.stringify(placementBody));
+if(page=pageLength)
+{
+$('#popup').hide();
+}
+}
+
+})();
+</script><script>
+  window.b3CheckoutConfig = {
+    routes: {
+      dashboard: '/account.php?action=order_status',
+    },
+  }
+  window.B3 = {
+    setting: {
+      store_hash: 'pywjnxrcr2',
+      channel_id: 1,
+      platform: 'bigcommerce',
+      b2b_client_id: 'dl7c39mdpul6hyc489yk0vzxl6jesyx',
+      b2b_url: 'https://api-b2b.bigcommerce.com',
+      captcha_setkey: '6LdGN_sgAAAAAGYFg1lmVoakQ8QXxbhWqZ1GpYaJ',
+    },
+    'dom.checkoutRegisterParentElement': '#checkout-app',
+    'dom.registerElement':
+      '[href^="/login.php"], #checkout-customer-login, [href="/login.php"] .navUser-item-loginLabel, #checkout-customer-returning .form-legend-container [href="#"]',
+    'dom.openB3Checkout': 'checkout-customer-continue',
+    before_login_goto_page: '/account.php?action=order_status',
+    checkout_super_clear_session: 'true',
+    'dom.navUserLoginElement': '.navUser-item--account',
+  }
+</script>
+<script
+  type="module"
+  crossorigin=""
+  src="https://bc.system76.com/storefront/dev2025/dist/index.BPi-gTYq.js"
+></script>
+<script
+  nomodule=""
+  crossorigin=""
+  src="https://bc.system76.com/storefront/dev2025/dist/polyfills-legacy.DArz4FPZ.js"
+></script>
+<script
+  nomodule=""
+  crossorigin=""
+  src="https://bc.system76.com/storefront/dev2025/dist/index-legacy.C3tYdNZM.js"
+></script><script data-bc-cookie-consent="2" type="text/plain" id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=47a058f1-1bd4-4321-b885-9a829f15ebb9"> </script>
+<script data-bc-cookie-consent="2" type="text/plain">
+    window.zESettings = {
+        "webWidget": {
+            "offset": {
+                "vertical": "90px"
+            },
+            "position": {
+                "horizontal": "right",
+                "vertical": "bottom"
+            }
+        }
+    }
+</script>
+    </body>
+</html>
